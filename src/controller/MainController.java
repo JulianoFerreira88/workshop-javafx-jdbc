@@ -31,12 +31,14 @@ public class MainController implements Initializable {
     public void onMenuItemSellerAction() {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setContentText("Clicado");
+        alert.show();
     }
 
     @FXML
     public void onMenuItemAboutAction() {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setContentText("Clicado");
+        alert.show();
     }
 
     @Override

@@ -17,13 +17,13 @@
                     <menus>
                         <Menu mnemonicParsing="false" text="Registration">
                             <items>
-                                <MenuItem mnemonicParsing="false" text="Seller" fx:id="menuItemSeller"/>
+                                <MenuItem mnemonicParsing="false" text="Seller" fx:id="menuItemSeller" onAction="#onMenuItemSellerAction"/>
                                 <MenuItem mnemonicParsing="false" text="Departments" fx:id="menuItemDepartment" onAction="#onMenuItemDepartmentAction"/>
                             </items>
                         </Menu>
                         <Menu mnemonicParsing="false" text="Help">
                             <items>
-                                <MenuItem mnemonicParsing="false" text="About"  fx:id="menuItemAbout"/>
+                                <MenuItem mnemonicParsing="false" text="About"  fx:id="menuItemAbout" onAction="#onMenuItemAboutAction"/>
                             </items>
                         </Menu>
                     </menus>
